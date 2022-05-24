@@ -28,5 +28,4 @@ public interface PlayerService {
     Integer currentLevel(Integer experience);
 
     Integer untilNextLevel(Integer level, Integer experience);
-
 }
