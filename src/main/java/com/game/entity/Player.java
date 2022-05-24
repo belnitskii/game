@@ -23,23 +23,7 @@ public class Player {
     private Date birthday;
     private Boolean banned;
 
-//    public Player(String name, String title, Race race, Profession profession, Integer experience, Date birthday) {
-//
-//        this(name, title, race, profession, experience, birthday, false);
-//    }
-//
-//    public Player(String name, String title, Race race, Profession profession, Integer experience, Date birthday, Boolean banned) {
-//        this.name = name;
-//        this.title = title;
-//        this.race = race;
-//        this.profession = profession;
-//        this.experience = experience;
-//        this.birthday = birthday;
-//        this.banned = banned;
-//    }
-
     protected Player() {
-
     }
 
     public Long getId() {

@@ -199,7 +199,4 @@ public class PlayerServiceImpl implements PlayerService {
     public Integer untilNextLevel(Integer level, Integer experience) {
         return 50 * (level + 1) * (level + 2) - experience;
     }
-
-
-
 }
