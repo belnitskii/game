@@ -1,6 +1,8 @@
 package com.game.entity;
 
 
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
 import javax.persistence.*;
 import java.util.Date;
 
